@@ -81,6 +81,9 @@ h1{
     margin: 0 0 0 -0.75em;
     position: absolute;
     width: 1.5em;
+    -moz-transition: transform .2s;
+    -ms-transition: transform .2s;
+    -webkit-transition: transform .2s;
     transition: transform .2s;
 }
 
@@ -113,6 +116,9 @@ h1{
     color: #fff;
     text-transform: uppercase;
     font-size: 45%;
+    -moz-transition: color .2s;
+    -webkit-transition: color .2s;
+    -ms-transition: color .2s;
     transition: color .2s;
 }
 
